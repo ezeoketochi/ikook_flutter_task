@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     Color appcolor = const Color.fromRGBO(252, 192, 28, 1);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'iKook Flutter Task',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: appcolor),
